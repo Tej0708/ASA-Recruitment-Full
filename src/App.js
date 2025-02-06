@@ -19,12 +19,12 @@ function App() {
   return (
     <div className="App">
       <img src={logo} alt="Company Logo" className="logo" />
-      <h1>UC Davis Football Recruitment Page</h1>
+      <h1>UC Davis Football</h1>
 
       {/* Explanation Section */}
       <div className="explanation">
         <p>
-          Welcome to the UC Davis Football recruitment page! Please find your position listed in the dropdown menu. Scroll through the different current UC Davis players!
+          Please find your position listed in the dropdown menu. Scroll through the different current UC Davis players!
         </p>
       </div>
       <Carousel athletes={filteredAthletes} />

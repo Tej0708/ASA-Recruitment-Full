@@ -18,7 +18,7 @@ function AthleteCard({ athlete }) {
             alt={`${athlete.name} year ${index + 1}`}
             className="athlete-image"
           />
-        ))}
+        ))}''
       </div>
 
       {/* Stats table */}

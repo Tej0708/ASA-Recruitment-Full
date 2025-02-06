@@ -97,7 +97,7 @@ body {
 }
 
 .athlete-image {
-  width: 120px;
+  width: 500px;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -112,9 +112,11 @@ body {
 .carousel-container {
   width: 100%;
   max-width: 1200px;
+  min-width: 300px;
   margin: 0 auto;
   position: relative;
   padding: 20px;
+  min-height: 300px; /* Ensures carousel always has height */
 }
 
 

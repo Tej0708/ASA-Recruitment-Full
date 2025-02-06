@@ -30,7 +30,7 @@ function Carousel({ athletes }) {
     slidesToScroll: 1,
     centerMode: true, // Keeps the active slide centered
     focusOnSelect: true, // Makes the selected card focus
-    variableWidth: true, // Set to true to allow variable card widths
+    variableWidth: false, // Set to true to allow variable card widths
     adaptiveHeight: true,
     arrows: uniqueAthletes.length > 1, // Adjust height to the content of the slide
   };
