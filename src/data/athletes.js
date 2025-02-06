@@ -1,25 +1,25 @@
-import bains2023 from '../images/Bains2023.jpg'
-import bains2024 from '../images/Bains2024.jpg'
-import gbatu2023 from '../images/Gbatu2023.jpg'
-import gbatu2024 from '../images/Gbatu2024.jpg'
-import hutton2023 from '../images/Hutton2023.jpg'
-import hutton2024 from '../images/Hutton2024.jpg'
-import bearden2023 from '../images/Bearden2023.jpg'
-import bearden2024 from '../images/Bearden2024.jpg'
-import gale2023 from '../images/Gale2023.jpg'
-import gale2024 from '../images/Gale2024.jpg'
-import kennedy2023 from '../images/Kennedy2023.jpg'
-import kennedy2024 from '../images/Kennedy2024.jpg'
-import larison2023 from '../images/Larison2023.jpg'
-import larison2024 from '../images/Larison2024.jpg'
-import meynell2023 from '../images/Meynell2023.jpg'
-import meynell2024 from '../images/Meynell2024.jpg'
-import sarac2023 from '../images/Sarac2023.jpg'
-import sarac2024 from '../images/Sarac2024.jpg'
-import tompkins2023 from '../images/Tompkins2023.jpg'
-import tompkins2024 from '../images/Tompkins2024.jpg'
-import williams2023 from '../images/Williams2023.jpg'
-import williams2024 from '../images/Williams2024.jpg'
+import bains2023 from '../images/Bains2023_cropped.jpg'
+import bains2024 from '../images/Bains2024_cropped.jpg'
+import gbatu2023 from '../images/Gbatu2023_cropped.jpg'
+import gbatu2024 from '../images/Gbatu2024_cropped.jpg'
+import hutton2023 from '../images/Hutton2023_cropped.jpg'
+import hutton2024 from '../images/Hutton2024_cropped.jpg'
+import bearden2023 from '../images/Bearden2023_cropped.jpg'
+import bearden2024 from '../images/Bearden2024_cropped.jpg'
+import gale2023 from '../images/Gale2023_cropped.jpg'
+import gale2024 from '../images/Gale2024_cropped.jpg'
+import kennedy2023 from '../images/Kennedy2023_cropped.jpg'
+import kennedy2024 from '../images/Kennedy2024_cropped.jpg'
+import larison2023 from '../images/Larison2023_cropped.jpg'
+import larison2024 from '../images/Larison2024_cropped.jpg'
+import meynell2023 from '../images/Meynell2023_cropped.jpg'
+import meynell2024 from '../images/Meynell2024_cropped.jpg'
+import sarac2023 from '../images/Sarac2023_cropped.jpg'
+import sarac2024 from '../images/Sarac2024_cropped.jpg'
+import tompkins2023 from '../images/Tompkins2023_cropped.jpg'
+import tompkins2024 from '../images/Tompkins2024_cropped.jpg'
+import williams2023 from '../images/Williams2023_cropped.jpg'
+import williams2024 from '../images/Williams2024_cropped.jpg'
 
 const athletes = [
   {
@@ -34,7 +34,7 @@ const athletes = [
       {
         year: 2021,
         bodyWeight: "170 lbs",
-        verticalJump: "30.0 inches",
+        verticalJump: "30.0\"",
         broadJump: "9'6.5\"",
         tenYard: "1.57s",
         flyingTen: "1.15s",
@@ -48,7 +48,7 @@ const athletes = [
       {
         year: 2022,
         bodyWeight: "178 lbs",
-        verticalJump: "30.5 inches",
+        verticalJump: "30.5\"",
         broadJump: "9'4\"",
         tenYard: "1.59s",
         flyingTen: "1.15s",
@@ -62,7 +62,7 @@ const athletes = [
       {
         year: 2023,
         bodyWeight: "170 lbs",
-        verticalJump: "31.5 inches",
+        verticalJump: "31.5\"",
         broadJump: "9'3.75\"",
         tenYard: "1.59s",
         flyingTen: "1.16s",
@@ -87,7 +87,7 @@ const athletes = [
       {
         year: 2023,
         bodyWeight: "170 lbs",
-        verticalJump: "30.5 inches",
+        verticalJump: "30.5\"",
         broadJump: "9'10.5\"",
         tenYard: "1.52s",
         flyingTen: "1.08s",
@@ -112,12 +112,12 @@ const athletes = [
       {
         year: 2021,
         bodyWeight: "174 lbs",
-        verticalJump: "32 inches",
+        verticalJump: "32\"",
         broadJump: "9'5\"",
         tenYard: "1.56s",
         flyingTen: "NT",
-        fortyYard: "4.54",
-        proAgility: "4.41",
+        fortyYard: "4.54s",
+        proAgility: "4.41s",
         lDrill: "7.23s",
         hangClean: "322 lbs",
         backSquat: "410 lbs",
@@ -126,7 +126,7 @@ const athletes = [
       {
         year: 2022,
         bodyWeight: "176 lbs",
-        verticalJump: "33 inches",
+        verticalJump: "33\"",
         broadJump: "9'8.75\"",
         tenYard: "1.53s",
         flyingTen: "1.10s",
@@ -140,7 +140,7 @@ const athletes = [
       {
         year: 2023,
         bodyWeight: "180 lbs",
-        verticalJump: "33 inches",
+        verticalJump: "33\"",
         broadJump: "9'2\"",
         tenYard: "1.55s",
         flyingTen: "1.13s",
@@ -165,13 +165,13 @@ const athletes = [
       {
         year: 2021,
         bodyWeight: "190 lbs",
-        verticalJump: "33 inches",
+        verticalJump: "33\"",
         broadJump: "9'7.25\"",
         tenYard: "1.53s",
         flyingTen: "NT",
-        fortyYard: "4.61",
-        proAgility: "4.18",
-        lDrill: "6.96",
+        fortyYard: "4.61s",
+        proAgility: "4.18s",
+        lDrill: "6.96s",
         hangClean: "308 lbs",
         backSquat: "420 lbs",
         inclineBench: "100 lbs",
@@ -179,7 +179,7 @@ const athletes = [
       {
         year: 2022,
         bodyWeight: "195 lbs",
-        verticalJump: "33 inches",
+        verticalJump: "33\"",
         broadJump: "9'5.5\"",
         tenYard: "NT",
         flyingTen: "NT",
@@ -193,7 +193,7 @@ const athletes = [
       {
         year: 2023,
         bodyWeight: "180 lbs",
-        verticalJump: "32 inches",
+        verticalJump: "32\"",
         broadJump: "9'8.5\"",
         tenYard: "1.50s",
         flyingTen: "1.09s",
@@ -218,12 +218,12 @@ const athletes = [
       {
         year: 2021,
         bodyWeight: "214 lbs",
-        verticalJump: "33.5 inches",
+        verticalJump: "33.5\"",
         broadJump: "9'8\"",
         tenYard: "1.62s",
         flyingTen: "NT",
-        fortyYard: "4.72",
-        proAgility: "4.56",
+        fortyYard: "4.72s",
+        proAgility: "4.56s",
         lDrill: "7.35s",
         hangClean: "286 lbs",
         backSquat: "405 lbs",
@@ -232,7 +232,7 @@ const athletes = [
       {
         year: 2022,
         bodyWeight: "223 lbs",
-        verticalJump: "35 inches",
+        verticalJump: "35\"",
         broadJump: "10'1\"",
         tenYard: "1.50s",
         flyingTen: "1.10s",
@@ -246,7 +246,7 @@ const athletes = [
       {
         year: 2023,
         bodyWeight: "239 lbs",
-        verticalJump: "32 inches",
+        verticalJump: "32\"",
         broadJump: "9'1\"",
         tenYard: "1.64s",
         flyingTen: "1.11s",
@@ -285,7 +285,7 @@ const athletes = [
       {
         year: 2023,
         bodyWeight: "222 lbs",
-        verticalJump: "32.5 inches",
+        verticalJump: "32.5\"",
         broadJump: "9'1.25\"",
         tenYard: "1.63s",
         flyingTen: "1.12s",
@@ -310,12 +310,12 @@ const athletes = [
           {
             year: 2021,
             bodyWeight: "198 lbs",
-            verticalJump: "31 inches",
+            verticalJump: "31\"",
             broadJump: "9'7\"",
             tenYard: "1.53s",
             flyingTen: "NT",
-            fortyYard: "4.59",
-            proAgility: "4.19",
+            fortyYard: "4.59s",
+            proAgility: "4.19s",
             lDrill: "6.9s",
             hangClean: "275 lbs",
             backSquat: "410 lbs",
@@ -324,7 +324,7 @@ const athletes = [
           {
             year: 2022,
             bodyWeight: "204 lbs",
-            verticalJump: "34.5 inches",
+            verticalJump: "34.5\"",
             broadJump: "9'10.75\"",
             tenYard: "1.52s",
             flyingTen: "1.08s",
@@ -338,7 +338,7 @@ const athletes = [
           {
             year: 2023,
             bodyWeight: "207 lbs",
-            verticalJump: "36 inches",
+            verticalJump: "36\"",
             broadJump: "10'2.5\"",
             tenYard: "1.51s",
             flyingTen: "1.08s",
@@ -363,12 +363,12 @@ const athletes = [
           {
             year: 2021,
             bodyWeight: "273 lbs",
-            verticalJump: "26.5 inches",
+            verticalJump: "26.5\"",
             broadJump: "8'4\"",
             tenYard: "1.71s",
-            flyingTen: "1.25",
+            flyingTen: "1.25s",
             fortyYard: "NT",
-            proAgility: "4.85",
+            proAgility: "4.85s",
             lDrill: "7.87s",
             hangClean: "292 lbs",
             backSquat: "455 lbs",
@@ -377,7 +377,7 @@ const athletes = [
           {
             year: 2022,
             bodyWeight: "298 lbs",
-            verticalJump: "28 inches",
+            verticalJump: "28\"",
             broadJump: "8'2\"",
             tenYard: "1.79s",
             flyingTen: "1.22s",
@@ -391,13 +391,13 @@ const athletes = [
           {
             year: 2023,
             bodyWeight: "294 lbs",
-            verticalJump: "28 inches",
+            verticalJump: "28\"",
             broadJump: "8'6.25\"",
             tenYard: "1.84s",
             flyingTen: "1.25s",
             fortyYard: "NT",
-            proAgility: "4.65",
-            lDrill: "7.78",
+            proAgility: "4.65s",
+            lDrill: "7.78s",
             hangClean: "310 lbs",
             backSquat: "500 lbs",
             inclineBench: "280 lbs",
@@ -416,12 +416,12 @@ const athletes = [
           {
             year: 2021,
             bodyWeight: "251 lbs",
-            verticalJump: "30.5 inches",
+            verticalJump: "30.5\"",
             broadJump: "8'6\"",
             tenYard: "1.62s",
             flyingTen: "NT",
-            fortyYard: "5.07",
-            proAgility: "4.59",
+            fortyYard: "5.07s",
+            proAgility: "4.59s",
             lDrill: "7.73s",
             hangClean: "315 lbs",
             backSquat: "420 lbs",
@@ -430,7 +430,7 @@ const athletes = [
           {
             year: 2022,
             bodyWeight: "254 lbs",
-            verticalJump: "30 inches",
+            verticalJump: "30\"",
             broadJump: "9'2.5\"",
             tenYard: "1.68s",
             flyingTen: "1.19s",
@@ -444,7 +444,7 @@ const athletes = [
           {
             year: 2023,
             bodyWeight: "279 lbs",
-            verticalJump: "29.5 inches",
+            verticalJump: "29.5\"",
             broadJump: "8'10.25\"",
             tenYard: "1.72s",
             flyingTen: "1.16s",
@@ -469,12 +469,12 @@ const athletes = [
           {
             year: 2021,
             bodyWeight: "257 lbs",
-            verticalJump: "30.0 inches",
+            verticalJump: "30.0\"",
             broadJump: "9'4.5\"",
             tenYard: "1.71s",
-            flyingTen: "1.12",
+            flyingTen: "1.12s",
             fortyYard: "NT",
-            proAgility: "4.56",
+            proAgility: "4.56s",
             lDrill: "7.96s",
             hangClean: "285 lbs",
             backSquat: "475 lbs",
@@ -483,7 +483,7 @@ const athletes = [
           {
             year: 2022,
             bodyWeight: "257 lbs",
-            verticalJump: "33.0 inches",
+            verticalJump: "33.0\"",
             broadJump: "9'0.5\"",
             tenYard: "1.69s",
             flyingTen: "1.17s",
@@ -497,7 +497,7 @@ const athletes = [
           {
             year: 2023,
             bodyWeight: "264 lbs",
-            verticalJump: "30.5 inches",
+            verticalJump: "30.5\"",
             broadJump: "9'4\"",
             tenYard: "1.61s",
             flyingTen: "1.18s",
@@ -522,12 +522,12 @@ const athletes = [
           {
             year: 2021,
             bodyWeight: "212 lbs",
-            verticalJump: "31.5 inches",
+            verticalJump: "31.5\"",
             broadJump: "9'2\"",
             tenYard: "1.60s",
             flyingTen: "1.11s",
-            fortyYard: "4.74",
-            proAgility: "4.47",
+            fortyYard: "4.74s",
+            proAgility: "4.47s",
             lDrill: "7.35s",
             hangClean: "286 lbs",
             backSquat: "450 lbs",
@@ -536,7 +536,7 @@ const athletes = [
           {
             year: 2022,
             bodyWeight: "215 lbs",
-            verticalJump: "31.5 inches",
+            verticalJump: "31.5\"",
             broadJump: "9'9.5\"",
             tenYard: "1.58s",
             flyingTen: "1.08s",
@@ -550,7 +550,7 @@ const athletes = [
           {
             year: 2023,
             bodyWeight: "215 lbs",
-            verticalJump: "33.0 inches",
+            verticalJump: "33.0\"",
             broadJump: "9'4.25\"",
             tenYard: "NT",
             flyingTen: "NT",
@@ -575,12 +575,12 @@ const athletes = [
           {
             year: 2021,
             bodyWeight: "212 lbs",
-            verticalJump: "31.5 inches",
+            verticalJump: "31.5\"",
             broadJump: "9'2\"",
             tenYard: "1.60s",
             flyingTen: "1.11s",
-            fortyYard: "4.74",
-            proAgility: "4.47",
+            fortyYard: "4.74s",
+            proAgility: "4.47s",
             lDrill: "7.35s",
             hangClean: "286 lbs",
             backSquat: "450 lbs",
@@ -589,7 +589,7 @@ const athletes = [
           {
             year: 2022,
             bodyWeight: "215 lbs",
-            verticalJump: "31.5 inches",
+            verticalJump: "31.5\"",
             broadJump: "9'9.5\"",
             tenYard: "1.58s",
             flyingTen: "1.08s",
@@ -603,7 +603,7 @@ const athletes = [
           {
             year: 2023,
             bodyWeight: "215 lbs",
-            verticalJump: "33.0 inches",
+            verticalJump: "33.0\"",
             broadJump: "9'4.25\"",
             tenYard: "NT",
             flyingTen: "NT",
@@ -628,12 +628,12 @@ const athletes = [
           {
             year: 2021,
             bodyWeight: "273 lbs",
-            verticalJump: "26.5 inches",
+            verticalJump: "26.5\"",
             broadJump: "8'4\"",
             tenYard: "1.71s",
-            flyingTen: "1.25",
+            flyingTen: "1.25s",
             fortyYard: "NT",
-            proAgility: "4.85",
+            proAgility: "4.85s",
             lDrill: "7.87s",
             hangClean: "292 lbs",
             backSquat: "455 lbs",
@@ -642,7 +642,7 @@ const athletes = [
           {
             year: 2022,
             bodyWeight: "298 lbs",
-            verticalJump: "28 inches",
+            verticalJump: "28\"",
             broadJump: "8'2\"",
             tenYard: "1.79s",
             flyingTen: "1.22s",
@@ -656,13 +656,13 @@ const athletes = [
           {
             year: 2023,
             bodyWeight: "294 lbs",
-            verticalJump: "28 inches",
+            verticalJump: "28\"",
             broadJump: "8'6.25\"",
             tenYard: "1.84s",
             flyingTen: "1.25s",
             fortyYard: "NT",
-            proAgility: "4.65",
-            lDrill: "7.78",
+            proAgility: "4.65s",
+            lDrill: "7.78s",
             hangClean: "310 lbs",
             backSquat: "500 lbs",
             inclineBench: "280 lbs",
@@ -681,12 +681,12 @@ const athletes = [
           {
             year: 2021,
             bodyWeight: "198 lbs",
-            verticalJump: "31 inches",
+            verticalJump: "31\"",
             broadJump: "9'7\"",
             tenYard: "1.53s",
             flyingTen: "NT",
-            fortyYard: "4.59",
-            proAgility: "4.19",
+            fortyYard: "4.59s",
+            proAgility: "4.19s",
             lDrill: "6.9s",
             hangClean: "275 lbs",
             backSquat: "410 lbs",
@@ -695,7 +695,7 @@ const athletes = [
           {
             year: 2022,
             bodyWeight: "204 lbs",
-            verticalJump: "34.5 inches",
+            verticalJump: "34.5\"",
             broadJump: "9'10.75\"",
             tenYard: "1.52s",
             flyingTen: "1.08s",
@@ -709,7 +709,7 @@ const athletes = [
           {
             year: 2023,
             bodyWeight: "207 lbs",
-            verticalJump: "36 inches",
+            verticalJump: "36\"",
             broadJump: "10'2.5\"",
             tenYard: "1.51s",
             flyingTen: "1.08s",
@@ -734,7 +734,7 @@ const athletes = [
           {
             year: 2021,
             bodyWeight: "170 lbs",
-            verticalJump: "30.0 inches",
+            verticalJump: "30.0\"",
             broadJump: "9'6.5\"",
             tenYard: "1.57s",
             flyingTen: "1.15s",
@@ -748,7 +748,7 @@ const athletes = [
           {
             year: 2022,
             bodyWeight: "178 lbs",
-            verticalJump: "30.5 inches",
+            verticalJump: "30.5\"",
             broadJump: "9'4\"",
             tenYard: "1.59s",
             flyingTen: "1.15s",
@@ -762,7 +762,7 @@ const athletes = [
           {
             year: 2023,
             bodyWeight: "170 lbs",
-            verticalJump: "31.5 inches",
+            verticalJump: "31.5\"",
             broadJump: "9'3.75\"",
             tenYard: "1.59s",
             flyingTen: "1.16s",

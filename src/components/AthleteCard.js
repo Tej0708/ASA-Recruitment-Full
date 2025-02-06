@@ -1,6 +1,7 @@
 import React from 'react';
 
 function AthleteCard({ athlete }) {
+  const imageYears = [2023, 2024];
   return (
     <div className="athlete-card">
       <h3>{athlete.name}</h3>
@@ -12,13 +13,15 @@ function AthleteCard({ athlete }) {
       {/* Image carousel or grid */}
       <div className="athlete-images">
         {athlete.images.map((image, index) => (
-          <img
-            key={index}
-            src={image}
-            alt={`${athlete.name} year ${index + 1}`}
-            className="athlete-image"
-          />
-        ))}''
+          <div key={index} className="image-container">
+            <img
+              src={image}
+              alt={`${athlete.name} ${imageYears[index]}`}
+              className="athlete-image"
+            />
+            <p className="image-year">{imageYears[index]}</p>
+          </div>
+        ))}
       </div>
 
       {/* Stats table */}
