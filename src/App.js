@@ -6,10 +6,10 @@ import './App.css';
 import logo from './images/logo.png';
 
 function App() {
-  const [selectedPosition, setSelectedPosition] = useState("");
+  const [selectedPosition] = useState("");
 
   // Get unique positions
-  const positions = [...new Set(athletes.map((athlete) => athlete.position))];
+  //const positions = [...new Set(athletes.map((athlete) => athlete.position))];
 
   // Filter athletes by selected position
   const filteredAthletes = selectedPosition
