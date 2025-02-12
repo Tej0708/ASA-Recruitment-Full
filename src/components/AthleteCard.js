@@ -1,7 +1,10 @@
 import React from 'react';
 
 function AthleteCard({ athlete }) {
-  const imageYears = [2023, 2024];
+  // Define the years dynamically based on the number of images
+  const baseYears = [2021, 2022, 2023, 2024];
+  const imageYears = baseYears.slice(-athlete.images.length); // Select only needed years
+
   return (
     <div className="athlete-card">
       <h3>{athlete.name}</h3>

@@ -1,23 +1,37 @@
+import bains2021 from '../images/Bains2021.jpg'
+import bains2022 from '../images/Bains2022.jpg'
 import bains2023 from '../images/Bains2023_cropped.jpg'
 import bains2024 from '../images/Bains2024_cropped.jpg'
+import gbatu2022 from '../images/Gbatu2022_cropped.jpg'
 import gbatu2023 from '../images/Gbatu2023_cropped.jpg'
 import gbatu2024 from '../images/Gbatu2024_cropped.jpg'
+import hutton2021 from '../images/Hutton2021_cropped.jpg'
+import hutton2022 from '../images/Hutton2022_cropped.jpg'
 import hutton2023 from '../images/Hutton2023_cropped.jpg'
 import hutton2024 from '../images/Hutton2024_cropped.jpg'
 import bearden2023 from '../images/Bearden2023_cropped.jpg'
 import bearden2024 from '../images/Bearden2024_cropped.jpg'
+import gale2021 from '../images/Gale2021_cropped.jpg'
+import gale2022 from '../images/Gale2022_cropped.jpg'
 import gale2023 from '../images/Gale2023_cropped.jpg'
 import gale2024 from '../images/Gale2024_cropped.jpg'
+import kennedy2022 from '../images/Kennedy2022_cropped.jpg'
 import kennedy2023 from '../images/Kennedy2023_cropped.jpg'
 import kennedy2024 from '../images/Kennedy2024_cropped.jpg'
+import larison2021 from '../images/Larison2021_cropped.jpg'
+import larison2022 from '../images/Larison2022_cropped.jpg'
 import larison2023 from '../images/Larison2023_cropped.jpg'
 import larison2024 from '../images/Larison2024_cropped.jpg'
 import meynell2023 from '../images/Meynell2023_cropped.jpg'
 import meynell2024 from '../images/Meynell2024_cropped.jpg'
+import sarac2022 from '../images/Sarac2022_cropped.jpg'
 import sarac2023 from '../images/Sarac2023_cropped.jpg'
 import sarac2024 from '../images/Sarac2024_cropped.jpg'
+import tompkins2021 from '../images/Tompkins2021_cropped.jpg'
+import tompkins2022 from '../images/Tompkins2022_cropped.jpg'
 import tompkins2023 from '../images/Tompkins2023_cropped.jpg'
 import tompkins2024 from '../images/Tompkins2024_cropped.jpg'
+import williams2022 from '../images/Williams2022_cropped.jpg'
 import williams2023 from '../images/Williams2023_cropped.jpg'
 import williams2024 from '../images/Williams2024_cropped.jpg'
 
@@ -26,7 +40,7 @@ const athletes = [
     id: 1,
     name: "Kavir Bains",
     position: "Defensive Back",
-    images: [bains2023, bains2024], // Images for each year
+    images: [bains2021, bains2022, bains2023, bains2024], // Images for each year
     height: "5'9\"",
     wing: "5'10.75\"",
     hand: "9.0\"",
@@ -79,7 +93,7 @@ const athletes = [
     id: 2,
     name: "Sam Gbatu",
     position: "Wide Reciever",
-    images: [gbatu2023, gbatu2024], // Images for each year
+    images: [gbatu2022,gbatu2023, gbatu2024], // Images for each year
     height: "5'10.5\"",
     wing: "5'11.25\"",
     hand: "9.75\"",
@@ -104,7 +118,7 @@ const athletes = [
     id: 3,
     name: "CJ Hutton",
     position: "Wide Reciever",
-    images: [hutton2023, hutton2024], // Images for each year
+    images: [hutton2021, hutton2022, hutton2023, hutton2024], // Images for each year
     height: "5'8\"",
     wing: "5'7.75\"",
     hand: "8.25\"",
@@ -157,7 +171,7 @@ const athletes = [
     id: 4,
     name: "Trent Tompkins",
     position: "Wide Reciever",
-    images: [tompkins2023, tompkins2024], // Images for each year
+    images: [tompkins2021, tompkins2022, tompkins2023, tompkins2024], // Images for each year
     height: "5'10.25\"",
     wing: "6'0\"",
     hand: "9.25\"",
@@ -210,7 +224,7 @@ const athletes = [
     id: 5,
     name: "Joshua Gale",
     position: "Tight End",
-    images: [gale2023, gale2024], // Images for each year
+    images: [gale2021, gale2022, gale2023, gale2024], // Images for each year
     height: "6'3.25\"",
     wing: "6'6.25\"",
     hand: "9.5\"",
@@ -263,7 +277,7 @@ const athletes = [
     id: 6,
     name: "Winston Williams",
     position: "Tight End",
-    images: [williams2023, williams2024], // Images for each year
+    images: [williams2022, williams2023, williams2024], // Images for each year
     height: "NA",
     wing: "NA",
     hand: "NA",
@@ -302,7 +316,7 @@ const athletes = [
         id: 7,
         name: "Larison Lan",
         position: "Running Back",
-        images: [larison2023, larison2024], // Images for each year
+        images: [larison2021, larison2022, larison2023, larison2024], // Images for each year
         height: "5'10.75\"",
         wing: "6'1\"",
         hand: "9.75\"",
@@ -461,7 +475,7 @@ const athletes = [
         id: 10,
         name: "Zach Kennedy",
         position: "Defensive Line",
-        images: [kennedy2023, kennedy2024], // Images for each year
+        images: [kennedy2022, kennedy2023, kennedy2024], // Images for each year
         height: "6'6\"",
         wing: "6'7.25\"",
         hand: "9.25\"",
@@ -514,7 +528,7 @@ const athletes = [
         id: 11,
         name: "Luka Sarac",
         position: "Linebacker",
-        images: [sarac2023, sarac2024], // Images for each year
+        images: [sarac2022, sarac2023, sarac2024], // Images for each year
         height: "6'0\"",
         wing: "6'1.25\"",
         hand: "8.5\"",
@@ -567,7 +581,7 @@ const athletes = [
         id: 12,
         name: "Luka Sarac",
         position: "Linebacker",
-        images: [sarac2023, sarac2024], // Images for each year
+        images: [sarac2022, sarac2023, sarac2024], // Images for each year
         height: "6'0\"",
         wing: "6'1.25\"",
         hand: "8.5\"",
@@ -673,7 +687,7 @@ const athletes = [
         id: 14,
         name: "Larison Lan",
         position: "Running Back",
-        images: [larison2023, larison2024], // Images for each year
+        images: [larison2021, larison2022, larison2023, larison2024], // Images for each year
         height: "5'10.75\"",
         wing: "6'1\"",
         hand: "9.75\"",
@@ -726,7 +740,7 @@ const athletes = [
         id: 15,
         name: "Kavir Bains",
         position: "Defensive Back",
-        images: [bains2023, bains2024], // Images for each year
+        images: [bains2021, bains2022, bains2023, bains2024], // Images for each year
         height: "5'9\"",
         wing: "5'10.75\"",
         hand: "9.0\"",
