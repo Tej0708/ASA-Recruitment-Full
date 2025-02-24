@@ -2,7 +2,7 @@ import React from 'react';
 
 function AthleteCard({ athlete }) {
   // Define the years dynamically based on the number of images
-  const baseYears = [2021, 2022, 2023, 2024];
+  //const baseYears = [2021, 2022, 2023, 2024];
   const availableYears = athlete.stats.map((stat) => stat.year); // Extract years from stats
   const imageYears = availableYears.slice(-athlete.images.length); // Match images to years dynamically
 
