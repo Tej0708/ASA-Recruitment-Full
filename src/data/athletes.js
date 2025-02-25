@@ -68,7 +68,7 @@ import ingrassia2024 from '../images/Ingrassia2024_cropped.jpg'
 import vargas2024 from '../images/Vargas2024_cropped.jpg'
 import connorsr2021 from '../images/ConnorsR2021_cropped.jpg'
 import connorsr2022 from '../images/ConnorsR2022_cropped.jpg'
-import connorsr2023 from '../images/ConnorsR2023_cropped.jpg'
+//import connorsr2023 from '../images/ConnorsR2023_cropped.jpg'
 import connorsr2024 from '../images/ConnorsR2024_cropped.jpg'
 import fowler2023 from '../images/Fowler2023_cropped.jpg'
 import fowler2024 from '../images/Fowler2024_cropped.jpg'
@@ -1454,7 +1454,7 @@ const athletes = [
         id: 25,
         name: "Rex Connors",
         position: "Defensive Back",
-        images: [connorsr2021, connorsr2022, connorsr2023, connorsr2024], // Images for each year
+        images: [connorsr2021, connorsr2022, connorsr2024], // Images for each year
         height: "6'0\"",
         wing: "5'11.25\"",
         hand: "9.0\"",
@@ -1487,7 +1487,7 @@ const athletes = [
             backSquat: "565 lbs",
             inclineBench: "380 lbs",
           },
-          {
+          /*{
             year: 2023,
             bodyWeight: "206 lbs",
             verticalJump: "34.5\"",
@@ -1500,7 +1500,7 @@ const athletes = [
             hangClean: "350 lbs",
             backSquat: "465 lbs",
             inclineBench: "390 lbs",
-          },
+          },*/
           {
             year: 2024,
             bodyWeight: "208 lbs",
@@ -1995,7 +1995,7 @@ const athletes = [
       {
         
         id: 37,
-        name: "Portor Connors",
+        name: "Porter Connors",
         position: "Linebacker",
         images: [connors2021,connors2023,connors2024], // Images for each year
         height: "5'11.75\"",
