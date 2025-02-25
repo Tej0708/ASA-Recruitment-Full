@@ -9,6 +9,8 @@ import hutton2021 from '../images/Hutton2021_cropped.jpg'
 import hutton2022 from '../images/Hutton2022_cropped.jpg'
 import hutton2023 from '../images/Hutton2023_cropped.jpg'
 import hutton2024 from '../images/Hutton2024_cropped.jpg'
+import bearden2021 from '../images/Bearden2021_cropped.jpg'
+import bearden2022 from '../images/Bearden2022_cropped.jpg'
 import bearden2023 from '../images/Bearden2023_cropped.jpg'
 import bearden2024 from '../images/Bearden2024_cropped.jpg'
 import gale2021 from '../images/Gale2021_cropped.jpg'
@@ -49,7 +51,6 @@ import harper2023 from '../images/Harper2023_cropped.jpg'
 import harper2024 from '../images/Harper2024_cropped.jpg'
 import rasor2023 from '../images/Rasor2023_cropped.jpg'
 import rasor2024 from '../images/Rasor2024_cropped.jpg'
-//import wrighster2024 from '../images/Wrighster2024_cropped.jpg'
 import acia2023 from '../images/Acia2023_cropped.jpg'
 import acia2024 from '../images/Acia2024_cropped.jpg'
 import fisher2023 from '../images/Fisher2023_cropped.jpg'
@@ -112,6 +113,44 @@ import morales2023 from '../images/Morales2023_cropped.jpg'
 import morales2024 from '../images/Morales2024_cropped.jpg'
 import owens2024 from '../images/Owens2024_cropped.jpg'
 import pickett2024 from '../images/Pickett2024_cropped.jpg'
+import bonesio2023 from '../images/bonesio2023.jpg'
+import collier2023 from '../images/collier2023.jpg'
+import collier2024 from '../images/collier2024.jpg'
+import dixon2021 from '../images/dixon2021.jpg'
+import dixon2022 from '../images/dixon2022.jpg'
+import dixon2023 from '../images/dixon2024.jpg'
+import dixon2024 from '../images/dixon2024.jpg'
+import fesili2021 from '../images/fesili2021.jpg'
+import fesili2022 from '../images/fesili2022.jpg'
+import fesili2023 from '../images/fesili2023.jpg'
+import fesili2024 from '../images/fesili2024.jpg'
+import main2022 from '../images/main2022.jpg'
+import main2023 from '../images/main2023.jpg'
+import main2024 from '../images/main2024.jpg'
+import mazakas2023 from '../images/mazakas2023.jpg'
+import mazakas2024 from '../images/mazakas2024.jpg'
+import montanez2024 from '../images/montanez2024.jpg'
+import nava2023 from '../images/nava2023.jpg'
+import nava2024 from '../images/nava2024.jpg'
+import norberg2023 from '../images/norberg2023.jpg'
+import pohlman2023 from '../images/pohlman2023.jpg'
+import pohlman2024 from '../images/pohlman2024.jpg'
+import porotesano2024 from '../images/porotesano2024.jpg'
+import rodriguez2024 from '../images/rodriguez2024.jpg'
+import simonson2023 from '../images/simonson2023.jpg'
+import simonson2024 from '../images/simonson2024.jpg'
+import simpson2023 from '../images/simpson2023.jpg'
+import simpson2024 from '../images/simpson2025.jpg'
+import souriolle2023 from '../images/souriolle2023.jpg'
+import souriolle2024 from '../images/souriolle2024.jpg'
+import staycer2023 from '../images/staycer2023.jpg'
+import staycer2024 from '../images/staycer2024.jpg'
+import thurston2024 from '../images/thurston2024.jpg'
+import madruga2022 from '../images/Madruga2022_cropped.jpg'
+import madruga2023 from '../images/Madruga2023_cropped.jpg'
+import madruga2024 from '../images/Madruga2024_cropped.jpg'
+import arthur2024 from '../images/Arthur2024_cropped.jpg'
+import sievers2024 from '../images/Sievers2024_cropped.jpg'
 
 const athletes = [
   {
@@ -626,7 +665,7 @@ const athletes = [
         id: 9,
         name: "Evan Bearden",
         position: "Defensive Line",
-        images: [bearden2023, bearden2024], // Images for each year
+        images: [bearden2021, bearden2022, bearden2023, bearden2024], // Images for each year
         height: "6'3.5\"",
         wing: "6'5.25\"",
         hand: "10.5\"",
@@ -1092,7 +1131,7 @@ const athletes = [
         id: 17,
         name: "Damon Wrighster",
         position: "Quarterback",
-        images: [rasor2023, rasor2024], // Images for each year
+        images: [], // Images for each year
         height: "6'2.25\"",
         wing: "6'2\"",
         hand: "9\"",
@@ -2096,7 +2135,7 @@ const athletes = [
         id: 40,
         name: "Macray Madruga",
         position: "Linebacker",
-        images: [], 
+        images: [madruga2022, madruga2023, madruga2024], 
         height: "6'2\"",
         wing: "6'5.5\"",
         hand: "9.25\"",
@@ -2297,7 +2336,7 @@ const athletes = [
         id: 45,
         name: "Jackson Sievers",
         position: "Linebacker",
-        images: [],
+        images: [sievers2024],
         height: "5'11.75\"",
         wing: "6'1.5\"",
         hand: "9\"",
@@ -2322,9 +2361,9 @@ const athletes = [
       {
        //could not find imagess
         id: 46,
-        name: "Greer Authur",
+        name: "Greer Arthur",
         position: "Wide Receiver",
-        images: [], // Images for each year
+        images: [arthur2024], // Images for each year
         height: "5'11.25\"",
         wing: "6'0.25\"",
         hand: "8.5\"",
@@ -2494,6 +2533,683 @@ const athletes = [
           }
         ],
   
+      },
+      {
+        id: 52,
+        name: "Zaire Collier",
+        position: "Offensive Line",
+        images: [collier2023, collier2024], // Images for each year
+        height: "6'2.5\"",
+        wing: "6'6.75\"",
+        hand: "10.75\"",
+        stats: [
+          {
+            year: 2023,
+            bodyWeight: "305 lbs",
+            verticalJump: "NT",
+            broadJump: "NT",
+            tenYard: "NT",
+            flyingTen: "NT",
+            fortyYard: "NT",
+            proAgility: "NT",
+            lDrill: "NT",
+            hangClean: "NT",
+            backSquat: "NT",
+            inclineBench: "NT",
+          },
+          {
+            year: 2024,
+            bodyWeight: "307 lbs",
+            verticalJump: "21\"",
+            broadJump: "7'3\"",
+            tenYard: "1.89s",
+            flyingTen: "1.3s",
+            fortyYard: "NT",
+            proAgility: "4.96",
+            lDrill: "8.32s",
+            hangClean: "250 lbs",
+            backSquat: "435 lbs",
+            inclineBench: "300 lbs",
+          },
+        ],
+      },
+      {
+        id: 53,
+        name: "Michael Fesili",
+        position: "Offensive Line",
+        images: [fesili2021, fesili2022, fesili2023, fesili2024], // Images for each year
+        height: "6'2.5\"",
+        wing: "6'6.75\"",
+        hand: "10.75\"",
+        stats: [
+          {
+            year: 2021,
+            bodyWeight: "281 lbs",
+            verticalJump: "19\"",
+            broadJump: "6'2.75\"",
+            tenYard: "2.1s",
+            flyingTen: "1.38s",
+            fortyYard: "4.57s",
+            proAgility: "NT",
+            lDrill: "NT",
+            hangClean: "187 lbs",
+            backSquat: "NT lbs",
+            inclineBench: "220 lbs",
+          },
+          {
+            year: 2022,
+            bodyWeight: "281 lbs",
+            verticalJump: "21.5\"",
+            broadJump: "7'1.5\"",
+            tenYard: "1.99s",
+            flyingTen: "1.3s",
+            fortyYard: "NT",
+            proAgility: "4.87s",
+            lDrill: "8.32s",
+            hangClean: "226 lbs",
+            backSquat: "415 lbs",
+            inclineBench: "250 lbs",
+          },
+          {
+            year: 2023,
+            bodyWeight: "294 lbs",
+            verticalJump: "22\"",
+            broadJump: "6'9.25\"",
+            tenYard: "2s",
+            flyingTen: "1.35s",
+            fortyYard: "NT",
+            proAgility: "5.05s",
+            lDrill: "8.46s",
+            hangClean: "245 lbs",
+            backSquat: "440 lbs",
+            inclineBench: "250 lbs",
+          },
+          {
+            year: 2024,
+            bodyWeight: "302 lbs",
+            verticalJump: "20.5\"",
+            broadJump: "6'7.75\"",
+            tenYard: "1.95s",
+            flyingTen: "1.35s",
+            fortyYard: "NT",
+            proAgility: "4.97s",
+            lDrill: "8.64s",
+            hangClean: "245 lbs",
+            backSquat: "425 lbs",
+            inclineBench: "260 lbs",
+          },
+        ],
+      },
+      {
+        id: 54,
+        name: "David Main",
+        position: "Offensive Line",
+        images: [main2022, main2023, main2024], // Images for each year
+        height: "6'3\"",
+        wing: "6'2.75\"",
+        hand: "9.5\"",
+        stats: [
+          {
+            year: 2022,
+            bodyWeight: "258 lbs",
+            verticalJump: "23..5\"",
+            broadJump: "8'4\"",
+            tenYard: "1.67s",
+            flyingTen: "1.21s",
+            fortyYard: "4.58s",
+            proAgility: "NT",
+            lDrill: "NT",
+            hangClean: "NT",
+            backSquat: "NT",
+            inclineBench: "NT",
+          },
+          {
+            year: 2023,
+            bodyWeight: "283 lbs",
+            verticalJump: "24\"",
+            broadJump: "8'4\"",
+            tenYard: "1.73s",
+            flyingTen: "1.2s",
+            fortyYard: "NT",
+            proAgility: "4.64s",
+            lDrill: "7.81s",
+            hangClean: "310 lbs",
+            backSquat: "445 lbs",
+            inclineBench: "305 lbs",
+          },
+          {
+            year: 2024,
+            bodyWeight: "284 lbs",
+            verticalJump: "26\"",
+            broadJump: "8'4.5\"",
+            tenYard: "1.74s",
+            flyingTen: "1.19s",
+            fortyYard: "NT",
+            proAgility: "4.69s",
+            lDrill: "8.02s",
+            hangClean: "355 lbs",
+            backSquat: "460 lbs",
+            inclineBench: "300 lbs",
+          },
+        ],
+      },
+      {
+        id: 55,
+        name: "Ty Mazakas",
+        position: "Offensive Line",
+        images: [mazakas2023, mazakas2024], // Images for each year
+        height: "6'5\"",
+        wing: "6'10.75\"",
+        hand: "9.5\"",
+        stats: [
+          {
+            year: 2023,
+            bodyWeight: "275 lbs",
+            verticalJump: "26\"",
+            broadJump: "7'6.5\"",
+            tenYard: "2s",
+            flyingTen: "1.29s",
+            fortyYard: "NT",
+            proAgility: "NT",
+            lDrill: "NT",
+            hangClean: "NT",
+            backSquat: "NT",
+            inclineBench: "NT",
+          },
+          {
+            year: 2024,
+            bodyWeight: "272 lbs",
+            verticalJump: "22.5\"",
+            broadJump: "7'5.5\"",
+            tenYard: "1.92s",
+            flyingTen: "1.35s",
+            fortyYard: "NT",
+            proAgility: "4.87s",
+            lDrill: "8.18s",
+            hangClean: "235 lbs",
+            backSquat: "325 lbs",
+            inclineBench: "235 lbs",
+          },
+        ],
+      },
+      {
+        id: 56,
+        name: "Jayden Montanez",
+        position: "Offensive Line",
+        images: [montanez2024], // Images for each year
+        height: "6'3.5\"",
+        wing: "6'7\"",
+        hand: "10.25\"",
+        stats: [
+          {
+            year: 2024,
+            bodyWeight: "261 lbs",
+            verticalJump: "18.5\"",
+            broadJump: "6'6\"",
+            tenYard: "2.05s",
+            flyingTen: "1.33s",
+            fortyYard: "NT",
+            proAgility: "NT",
+            lDrill: "NT",
+            hangClean: "190 lbs",
+            backSquat: "225 lbs", //front squat
+            inclineBench: "215 lbs",
+          },
+        ],
+      },
+      {
+        id: 57,
+        name: "Ernesto Nava",
+        position: "Offensive Line",
+        images: [nava2023, nava2024], // Images for each year
+        height: "6'3\"",
+        wing: "6'7\"",
+        hand: "10.25\"",
+        stats: [
+          {
+            year: 2023,
+            bodyWeight: "295 lbs",
+            verticalJump: "23\"",
+            broadJump: "7'4.75\"",
+            tenYard: "1.97s",
+            flyingTen: "1.32s",
+            fortyYard: "NT",
+            proAgility: "NT",
+            lDrill: "NT",
+            hangClean: "NT",
+            backSquat: "NT",
+            inclineBench: "290 lbs",
+          },
+          {
+            year: 2024,
+            bodyWeight: "307 lbs",
+            verticalJump: "26\"",
+            broadJump: "7'9.25\"",
+            tenYard: "1.88s",
+            flyingTen: "1.31s",
+            fortyYard: "NT",
+            proAgility: "4.87s",
+            lDrill: "8.33s",
+            hangClean: "265 lbs (not a max)",
+            backSquat: "375 lbs (not a max)",
+            inclineBench: "300 lbs",
+          },
+        ]
+      },
+      {
+        id: 58,
+        name: "David Porotesano",
+        position: "Offensive Line",
+        images: [porotesano2024], // Images for each year
+        height: "6'2\"",
+        wing: "6'7.5\"",
+        hand: "10.25\"",
+        stats: [
+          {
+            year: 2024,
+            bodyWeight: "272 lbs",
+            verticalJump: "22.5\"",
+            broadJump: "8'3.5\"",
+            tenYard: "1.82s",
+            flyingTen: "1.28s",
+            fortyYard: "NT",
+            proAgility: "NT",
+            lDrill: "NT",
+            hangClean: "250 lbs",
+            backSquat: "335 lbs", //front squat
+            inclineBench: "240 lbs",
+          },
+        ],
+      },
+      {
+        id: 59,
+        name: "Jace Rodriguez",
+        position: "Offensive Line",
+        images: [rodriguez2024], // Images for each year
+        height: "6'4.75\"",
+        wing: "6'4.25\"",
+        hand: "9.75\"",
+        stats: [
+          {
+            year: 2024,
+            bodyWeight: "298 lbs",
+            verticalJump: "23.5\"",
+            broadJump: "8'7\"",
+            tenYard: "1.7s",
+            flyingTen: "1.25s",
+            fortyYard: "NT",
+            proAgility: "4.65s",
+            lDrill: "7.8s",
+            hangClean: "330 lbs",
+            backSquat: "435 lbs",
+            inclineBench: "295 lbs",
+          },
+        ],
+      },
+      {
+        id: 60,
+        name: "Eli Simonson",
+        position: "Offensive Line",
+        images: [simonson2023, simonson2024], // Images for each year
+        height: "6'7\"",
+        wing: "6'9\"",
+        hand: "10.75\"",
+        stats: [
+          {
+            year: 2023,
+            bodyWeight: "284 lbs",
+            verticalJump: "34.0\"",
+            broadJump: "9'7.25\"",
+            tenYard: "1.78s",
+            flyingTen: "1.18s",
+            fortyYard: "NT",
+            proAgility: "NT",
+            lDrill: "NT",
+            hangClean: "NT",
+            backSquat: "NT",
+            inclineBench: "NT",
+          },
+          {
+            year: 2024,
+            bodyWeight: "271 lbs",
+            verticalJump: "32\"",
+            broadJump: "9'8\"",
+            tenYard: "1.7s",
+            flyingTen: "1.2s",
+            fortyYard: "NT",
+            proAgility: "4.7s",
+            lDrill: "8.05s",
+            hangClean: "330 lbs",
+            backSquat: "515 lbs",
+            inclineBench: "315 lbs",
+          },
+        ],
+      },
+      {
+        id: 61,
+        name: "Izaiah Souriolle",
+        position: "Offensive Line",
+        images: [souriolle2023, souriolle2024], // Images for each year
+        height: "6'1\"",
+        wing: "6'6.25\"",
+        hand: "9\"",
+        stats: [
+          {
+            year: 2023,
+            bodyWeight: "292 lbs",
+            verticalJump: "28.5\"",
+            broadJump: "6'8.25\"",
+            tenYard: "2.02s",
+            flyingTen: "1.39s",
+            fortyYard: "NT",
+            proAgility: "NT",
+            lDrill: "NT",
+            hangClean: "NT",
+            backSquat: "NT",
+            inclineBench: "NT",
+          },
+          {
+            year: 2024,
+            bodyWeight: "270 lbs",
+            verticalJump: "27.5\"",
+            broadJump: "8'\"",
+            tenYard: "1.77s",
+            flyingTen: "1.31s",
+            fortyYard: "NT",
+            proAgility: "4.79s",
+            lDrill: "8.14s",
+            hangClean: "310 lbs",
+            backSquat: "460 lbs",
+            inclineBench: "245 lbs",
+          },
+        ],
+      },
+      {
+        id: 62,
+        name: "Matthew Staycer",
+        position: "Offensive Line",
+        images: [staycer2023, staycer2024], // Images for each year
+        height: "6'3\"",
+        wing: "6'8.75\"",
+        hand: "9.5\"",
+        stats: [
+          {
+            year: 2023,
+            bodyWeight: "301 lbs",
+            verticalJump: "23.5\"",
+            broadJump: "7'3.5\"",
+            tenYard: "2.03s",
+            flyingTen: "1.37s",
+            fortyYard: "NT",
+            proAgility: "NT",
+            lDrill: "NT",
+            hangClean: "NT",
+            backSquat: "NT",
+            inclineBench: "NT",
+          },
+          {
+            year: 2024,
+            bodyWeight: "324 lbs",
+            verticalJump: "22.5\"",
+            broadJump: "7'7.5\"",
+            tenYard: "1.89s",
+            flyingTen: "1.34s",
+            fortyYard: "NT",
+            proAgility: "5s",
+            lDrill: "8.58s",
+            hangClean: "335 lbs",
+            backSquat: "505 lbs",
+            inclineBench: "320 lbs",
+          },
+        ],
+      },
+      {
+        id: 63,
+        name: "Jezniah Thurston",
+        position: "Offensive Line",
+        images: [thurston2024], // Images for each year
+        height: "6'2\"",
+        wing: "6'8\"",
+        hand: "9.75\"",
+        stats: [
+          {
+            year: 2024,
+            bodyWeight: "294 lbs",
+            verticalJump: "24\"",
+            broadJump: "7'4.5\"",
+            tenYard: "1.95s",
+            flyingTen: "1.35s",
+            fortyYard: "NT",
+            proAgility: "NT",
+            lDrill: "NT",
+            hangClean: "NT",
+            backSquat: "NT",
+            inclineBench: "235 lbs", //low incline
+          },
+        ],
+      },
+      {
+        id: 64,
+        name: "Connor Bonesio",
+        position: "Tight End",
+        images: [bonesio2023], // Images for each year
+        height: "6'5\"",
+        wing: "6'10.25\"",
+        hand: "10.25\"",
+        stats: [
+          {
+            year: 2023,
+            bodyWeight: "232 lbs",
+            verticalJump: "29\"",
+            broadJump: "8'9.25\"",
+            tenYard: "1.82s",
+            flyingTen: "1.2s",
+            fortyYard: "NT",
+            proAgility: "NT",
+            lDrill: "NT",
+            hangClean: "NT",
+            backSquat: "NT",
+            inclineBench: "NT",
+          },
+          {
+            year: 2024,
+            bodyWeight: "232 lbs",
+            verticalJump: "27.5\"",
+            broadJump: "8'7.5\"",
+            tenYard: "NT",
+            flyingTen: "NT",
+            fortyYard: "NT",
+            proAgility: "NT",
+            lDrill: "NT",
+            hangClean: "265 lbs",
+            backSquat: "NT",
+            inclineBench: "210 lbs",
+          },
+        ],
+      },
+      {
+        id: 65,
+        name: "Mitchell Dixon",
+        position: "Tight End",
+        images: [dixon2021, dixon2022, dixon2023, dixon2024], // Images for each year
+        height: "6'4.25\"",
+        wing: "6'6\"",
+        hand: "9.75\"",
+        stats: [
+          {
+            year: 2021,
+            bodyWeight: "224 lbs",
+            verticalJump: "34.5\"",
+            broadJump: "9'5\"",
+            tenYard: "1.55s",
+            flyingTen: "1.16s",
+            fortyYard: "4.71s",
+            proAgility: "4.35s",
+            lDrill: "7.33s",
+            hangClean: "255 lbs",
+            backSquat: "365 lbs",
+            inclineBench: "90* lbs",
+          },
+          {
+            year: 2022,
+            bodyWeight: "232 lbs",
+            verticalJump: "33\"",
+            broadJump: "9'2.5\"",
+            tenYard: "1.59s",
+            flyingTen: "1.13s",
+            fortyYard: "4.74s",
+            proAgility: "4.33s",
+            lDrill: "7.32s",
+            hangClean: "279 lbs",
+            backSquat: "285 lbs",
+            inclineBench: "225 lbs",
+          },
+          {
+            year: 2023,
+            bodyWeight: "231 lbs",
+            verticalJump: "33.5\"",
+            broadJump: "9'4.5\"",
+            tenYard: "1.61s",
+            flyingTen: "1.12s",
+            fortyYard: "4.71s",
+            proAgility: "4.4s",
+            lDrill: "7.25s",
+            hangClean: "290 lbs",
+            backSquat: "385 lbs",
+            inclineBench: "225 lbs",
+          },
+          {
+            year: 2024,
+            bodyWeight: "241 lbs",
+            verticalJump: "31.5\"",
+            broadJump: "8'10.75\"",
+            tenYard: "1.69s",
+            flyingTen: "1.152s",
+            fortyYard: "4.85s",
+            proAgility: "4.32s",
+            lDrill: "7.3s",
+            hangClean: "300 lbs",
+            backSquat: "380 lbs",
+            inclineBench: "235 lbs",
+          },
+        ],
+      },
+      {
+        id: 66,
+        name: "Mason Norberg",
+        position: "Tight End",
+        images: [norberg2023], // Images for each year
+        height: "6'1.5\"",
+        wing: "6'3.5\"",
+        hand: "10\"",
+        stats: [
+          {
+            year: 2023,
+            bodyWeight: "220 lbs",
+            verticalJump: "26.5\"",
+            broadJump: "8'1.5\"",
+            tenYard: "1.73s",
+            flyingTen: "1.21s",
+            fortyYard: "NT",
+            proAgility: "NT",
+            lDrill: "NT",
+            hangClean: "NT",
+            backSquat: "NT",
+            inclineBench: "NT",
+          },
+          {
+            year: 2024,
+            bodyWeight: "222 lbs",
+            verticalJump: "325\"",
+            broadJump: "8'5\"",
+            tenYard: "1.74s",
+            flyingTen: "1.18s",
+            fortyYard: "5.01s",
+            proAgility: "4.55s",
+            lDrill: "7.75s",
+            hangClean: "300 lbs",
+            backSquat: "380 lbs",
+            inclineBench: "220 lbs",
+          },
+        ],
+      },
+      {
+        id: 67,
+        name: "Franz Pohlman",
+        position: "Tight End",
+        images: [pohlman2023, pohlman2024], // Images for each year
+        height: "6'5\"",
+        wing: "6'9.5\"",
+        hand: "9.75\"",
+        stats: [
+          {
+            year: 2023,
+            bodyWeight: "209 lbs",
+            verticalJump: "34.5\"",
+            broadJump: "10'2.25\"",
+            tenYard: "1.73s",
+            flyingTen: "1.13s",
+            fortyYard: "NT",
+            proAgility: "NT",
+            lDrill: "NT",
+            hangClean: "NT",
+            backSquat: "NT",
+            inclineBench: "NT",
+          },
+          {
+            year: 2024,
+            bodyWeight: "222 lbs",
+            verticalJump: "30.5\"",
+            broadJump: "10'0.75\"",
+            tenYard: "1.65s",
+            flyingTen: "1.111s",
+            fortyYard: "4.77s",
+            proAgility: "4.3s",
+            lDrill: "7.28s",
+            hangClean: "315 lbs",
+            backSquat: "405",
+            inclineBench: "255 lbs",
+          },
+        ],
+      },
+      {
+        id: 68,
+        name: "Ian Simpson",
+        position: "Tight End",
+        images: [simpson2023, simpson2024], // Images for each year
+        height: "6'2.5\"",
+        wing: "6'8.25\"",
+        hand: "9\"",
+        stats: [
+          {
+            year: 2023,
+            bodyWeight: "239 lbs",
+            verticalJump: "34.5\"",
+            broadJump: "9'6.25\"",
+            tenYard: "1.71s",
+            flyingTen: "1.11s",
+            fortyYard: "NT",
+            proAgility: "NT",
+            lDrill: "NT",
+            hangClean: "NT",
+            backSquat: "NT",
+            inclineBench: "NT",
+          },
+          {
+            year: 2024,
+            bodyWeight: "223 lbs",
+            verticalJump: "NT",
+            broadJump: "NT",
+            tenYard: "NT",
+            flyingTen: "NT",
+            fortyYard: "NT",
+            proAgility: "NT",
+            lDrill: "NT",
+            hangClean: "NT",
+            backSquat: "NT",
+            inclineBench: "NT",
+          },
+        ],
       },
   
   
